@@ -1,0 +1,81 @@
+
+    <div style="overflow-x: scroll; ">
+    <div style="width: 558.8235294117646px">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 608 544" version="1.1">
+<g id="qubit_lines">
+<path id="qubit_line:0" d="M64,64 L576,64 " stroke="black"/>
+<text dominant-baseline="central" text-anchor="end" font-family="monospace" font-size="12" x="64" y="64">q0</text>
+<path id="qubit_line:1" d="M64,128 L576,128 " stroke="black"/>
+<text dominant-baseline="central" text-anchor="end" font-family="monospace" font-size="12" x="64" y="128">q1</text>
+<path id="qubit_line:2" d="M64,192 L576,192 " stroke="black"/>
+<text dominant-baseline="central" text-anchor="end" font-family="monospace" font-size="12" x="64" y="192">q2</text>
+<path id="qubit_line:3" d="M64,256 L576,256 " stroke="black"/>
+<text dominant-baseline="central" text-anchor="end" font-family="monospace" font-size="12" x="64" y="256">q3</text>
+<path id="qubit_line:4" d="M64,320 L576,320 " stroke="black"/>
+<text dominant-baseline="central" text-anchor="end" font-family="monospace" font-size="12" x="64" y="320">q4</text>
+<path id="qubit_line:5" d="M64,384 L576,384 " stroke="black"/>
+<text dominant-baseline="central" text-anchor="end" font-family="monospace" font-size="12" x="64" y="384">q5</text>
+<path id="qubit_line:6" d="M64,448 L576,448 " stroke="black"/>
+<text dominant-baseline="central" text-anchor="end" font-family="monospace" font-size="12" x="64" y="448">q6</text>
+</g>
+<rect x="80" y="48" width="32" height="32" stroke="black" fill="white"/>
+<text dominant-baseline="central" text-anchor="middle" font-family="monospace" font-size="18" x="96" y="64">√Y<tspan baseline-shift="super" font-size="14">†</tspan></text>
+<rect x="80" y="112" width="32" height="32" stroke="black" fill="white"/>
+<text dominant-baseline="central" text-anchor="middle" font-family="monospace" font-size="18" x="96" y="128">√Y<tspan baseline-shift="super" font-size="14">†</tspan></text>
+<rect x="80" y="176" width="32" height="32" stroke="black" fill="white"/>
+<text dominant-baseline="central" text-anchor="middle" font-family="monospace" font-size="18" x="96" y="192">√Y<tspan baseline-shift="super" font-size="14">†</tspan></text>
+<rect x="80" y="240" width="32" height="32" stroke="black" fill="white"/>
+<text dominant-baseline="central" text-anchor="middle" font-family="monospace" font-size="18" x="96" y="256">√Y<tspan baseline-shift="super" font-size="14">†</tspan></text>
+<rect x="80" y="304" width="32" height="32" stroke="black" fill="white"/>
+<text dominant-baseline="central" text-anchor="middle" font-family="monospace" font-size="18" x="96" y="320">√Y<tspan baseline-shift="super" font-size="14">†</tspan></text>
+<rect x="80" y="368" width="32" height="32" stroke="black" fill="white"/>
+<text dominant-baseline="central" text-anchor="middle" font-family="monospace" font-size="18" x="96" y="384">√Y<tspan baseline-shift="super" font-size="14">†</tspan></text>
+<path d="M160,128 L160,192 " stroke="black"/>
+<circle cx="160" cy="128" r="12" stroke="none" fill="black"/>
+<circle cx="160" cy="192" r="12" stroke="none" fill="black"/>
+<path d="M160,256 L160,320 " stroke="black"/>
+<circle cx="160" cy="256" r="12" stroke="none" fill="black"/>
+<circle cx="160" cy="320" r="12" stroke="none" fill="black"/>
+<path d="M160,384 L160,448 " stroke="black"/>
+<circle cx="160" cy="384" r="12" stroke="none" fill="black"/>
+<circle cx="160" cy="448" r="12" stroke="none" fill="black"/>
+<rect x="208" y="432" width="32" height="32" stroke="black" fill="white"/>
+<text dominant-baseline="central" text-anchor="middle" font-family="monospace" font-size="24" x="224" y="448">√Y</text>
+<path d="M224,64 L224,256 " stroke="black"/>
+<circle cx="224" cy="64" r="12" stroke="none" fill="black"/>
+<circle cx="224" cy="256" r="12" stroke="none" fill="black"/>
+<path d="M288,192 L288,384 " stroke="black"/>
+<circle cx="288" cy="192" r="12" stroke="none" fill="black"/>
+<circle cx="288" cy="384" r="12" stroke="none" fill="black"/>
+<path d="M352,320 L352,448 " stroke="black"/>
+<circle cx="352" cy="320" r="12" stroke="none" fill="black"/>
+<circle cx="352" cy="448" r="12" stroke="none" fill="black"/>
+<rect x="336" y="176" width="32" height="32" stroke="black" fill="white"/>
+<text dominant-baseline="central" text-anchor="middle" font-family="monospace" font-size="24" x="352" y="192">√Y</text>
+<rect x="336" y="240" width="32" height="32" stroke="black" fill="white"/>
+<text dominant-baseline="central" text-anchor="middle" font-family="monospace" font-size="24" x="352" y="256">√Y</text>
+<rect x="400" y="304" width="32" height="32" stroke="black" fill="white"/>
+<text dominant-baseline="central" text-anchor="middle" font-family="monospace" font-size="24" x="416" y="320">√Y</text>
+<rect x="400" y="368" width="32" height="32" stroke="black" fill="white"/>
+<text dominant-baseline="central" text-anchor="middle" font-family="monospace" font-size="24" x="416" y="384">√Y</text>
+<rect x="400" y="432" width="32" height="32" stroke="black" fill="white"/>
+<text dominant-baseline="central" text-anchor="middle" font-family="monospace" font-size="24" x="416" y="448">√Y</text>
+<path d="M416,64 L416,128 " stroke="black"/>
+<circle cx="416" cy="64" r="12" stroke="none" fill="black"/>
+<circle cx="416" cy="128" r="12" stroke="none" fill="black"/>
+<path d="M416,192 L416,256 " stroke="black"/>
+<circle cx="416" cy="192" r="12" stroke="none" fill="black"/>
+<circle cx="416" cy="256" r="12" stroke="none" fill="black"/>
+<path d="M480,320 L480,384 " stroke="black"/>
+<circle cx="480" cy="320" r="12" stroke="none" fill="black"/>
+<circle cx="480" cy="384" r="12" stroke="none" fill="black"/>
+<rect x="464" y="112" width="32" height="32" stroke="black" fill="white"/>
+<text dominant-baseline="central" text-anchor="middle" font-family="monospace" font-size="24" x="480" y="128">√Y</text>
+<rect x="464" y="176" width="32" height="32" stroke="black" fill="white"/>
+<text dominant-baseline="central" text-anchor="middle" font-family="monospace" font-size="24" x="480" y="192">√Y</text>
+<rect x="528" y="304" width="32" height="32" stroke="black" fill="white"/>
+<text dominant-baseline="central" text-anchor="middle" font-family="monospace" font-size="24" x="544" y="320">√Y</text>
+</svg>
+    </div>
+    </div>
+    
