@@ -1,6 +1,6 @@
 from bloqade import squin, stim
 from kirin.dialects.ilist import IList
-from noise_injection import analyze_noise_channels
+from team_solutions.pauley_x.noise_analysis.noise_injection import analyze_noise_channels
 import numpy as np
 import matplotlib.pyplot as plt
 
