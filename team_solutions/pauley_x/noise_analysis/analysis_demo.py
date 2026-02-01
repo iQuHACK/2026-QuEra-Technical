@@ -1,6 +1,16 @@
-from main import MSD_encoding_Z
-from team_solutions.pauley_x.noise_analysis.noise_injection import test_individual_noise_type
 import sys
+import os
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
+pauley_x_dir = os.path.dirname(current_dir)
+team_solutions_dir = os.path.dirname(pauley_x_dir)
+workspace_dir = os.path.dirname(team_solutions_dir)
+
+sys.path.insert(0, pauley_x_dir)
+sys.path.insert(0, workspace_dir)
+
+from main import MSD_encoding_Z
+from noise_injection import test_individual_noise_type
 
 def demo():
     print("\n" + "="*70)
@@ -45,23 +55,20 @@ def demo():
         print(f"{i}. {noise_type:20s} {error_pct:6.2f}% │{bar:40s}│")
     
     print("\n" + "="*70)
-    print("RECOMMENDATION:")
+    print("MOST PROBLEMATIC:")
     print("="*70)
     if results[0][1] > 20:
         print(f"(╯°o°)ᕗ  CRITICAL: '{results[0][0]}' causes {results[0][1]:.1f}% errors!")
-        print(f"   This is your top priority for error correction/mitigation.")
     elif results[0][1] > 5:
         print(f"(ಠ╭╮ಠ)  SIGNIFICANT: '{results[0][0]}' causes {results[0][1]:.1f}% errors.")
-        print(f"   Consider focusing error correction efforts here.")
     else:
-        print(f"✓ All tested noise sources have <5% impact. Circuit is relatively robust!")
+        print(f"✓ !!!!!!!!!!!!!! All tested noise sources have <5% impact!!!! ROBUST")
     
-    print("\nFor full analysis of ALL noise types, run: python noise_analysis.py")
+    print("\nFor full analysis of ALL noise types run `python noise_analysis.py`")
     print("="*70 + "\n")
 
 if __name__ == "__main__":
     try:
         demo()
     except KeyboardInterrupt:
-        print("\n\nDemo interrupted by user.")
         sys.exit(0)

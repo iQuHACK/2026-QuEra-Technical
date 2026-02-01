@@ -1,3 +1,14 @@
+import sys
+import os
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
+pauley_x_dir = os.path.dirname(current_dir)
+team_solutions_dir = os.path.dirname(pauley_x_dir)
+workspace_dir = os.path.dirname(team_solutions_dir)
+
+sys.path.insert(0, pauley_x_dir)
+sys.path.insert(0, workspace_dir)
+
 from main import MSD_encoding_Z, MSD_encoding_X
 from team_solutions.pauley_x.noise_analysis.noise_injection import test_individual_noise_type, compare_all_noise_types
 import matplotlib.pyplot as plt
