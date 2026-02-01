@@ -1,3 +1,3 @@
-# The main entry point is in [`src/main.py`](src/main.py)
+# The main entry point is in [`Main code`](src/main.py)
 
-# The presentation slides are in [`./iquhack_2026_quera_technical_challenge-Quantum_ÉTS.pdf`](./iquhack_2026_quera_technical_challenge-Quantum_ÉTS.pdf)
+# The presentation slides are in [`Team presentation`](./iquhack_2026_quera_technical_challenge-Quantum_ÉTS.pdf)
