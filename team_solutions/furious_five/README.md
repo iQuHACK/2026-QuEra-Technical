@@ -4,3 +4,4 @@
 
 - [writeup](./writeup.pdf)
 - [code](./furious_five.py)
+- [slides](./slides.pdf)
