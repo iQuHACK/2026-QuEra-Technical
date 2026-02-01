@@ -6,10 +6,11 @@ POI_CONFIG: Dict[str, Tuple[str, float]] = {}
 def configure_poi(config: Dict[str, Tuple[str, float]]):
     global POI_CONFIG
     POI_CONFIG = config.copy()
-    poi_kernels = dict()
-    for x in POI_CONFIG.keys():
-        poi_kernels[x] = get_poi_kernel(x)
-    return poi_kernels
+    # poi_kernels = dict()
+    # for x in POI_CONFIG.keys():
+    #     poi_kernels[x] = get_poi_kernel(x)
+    # return poi_kernels
+    
 
 def get_poi_kernel(label: str):
     
